@@ -1,0 +1,184 @@
+// main: style.scss
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+#header {
+  padding: 30px 0;
+  height: 92px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  transition: all 0.5s;
+  z-index: 997;
+
+  #logo {
+    float: left;
+
+    h1 {
+      font-size: 36px;
+      margin: -4px 0 0 0;
+      padding: 0;
+      line-height: 1;
+      display: inline-block;
+      font-family: $accent-font;
+      font-weight: 300;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+    }
+
+    h1 a, h1 a:hover {
+      color: #fff;
+    }
+
+    img {
+      padding: 0;
+      margin: 0;
+    }
+  }
+
+  @media (max-width: 768px) {
+    #logo {
+      h1 {
+        font-size: 28px;
+        margin-top: 0;
+      }
+
+      img {
+        max-height: 40px;
+      }
+    }
+  }
+
+  &.header-fixed  {
+    background: linear-gradient(45deg, #1de099, #1dc8cd);
+    padding: 20px 0;
+    height: 72px;
+    transition: all 0.5s;
+  }
+
+}
+
+/*--------------------------------------------------------------
+# Intro Section
+--------------------------------------------------------------*/
+#intro {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(45deg, rgba(29, 224, 153, 0.8), rgba(29, 200, 205, 0.8)), url('../img/intro-bg.jpg') center top no-repeat;
+  background-size: cover;
+  position: relative;
+  
+  @media (min-width: 1024px) {
+    background-attachment: fixed;
+  }
+
+  .intro-text {
+    position: absolute;
+    left: 0;
+    top: 60px;
+    right: 0;
+    height: calc(50% - 60px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  h2 {
+    margin: 30px 0 10px 0;
+    padding: 0 15px;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 56px;
+    color: #fff;
+    @media (max-width: 768px) {
+      font-size: 28px;
+      line-height: 36px;
+    }
+  }
+
+  p {
+    color: #fff;
+    margin-bottom: 20px;
+    padding: 0 15px;
+    font-size: 24px;
+
+    @media (max-width: 768px) {
+      font-size: 18px;
+      line-height: 24px;
+      margin-bottom: 20px;
+    }
+  }
+
+  .btn-get-started {
+    font-family: $heading-font;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 10px;
+    border: 2px solid #fff;
+    color: #fff;
+    &:hover {
+      color: $accent-color;
+      background: #fff;
+    }
+  }
+
+  .product-screens {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+    height: 50%;
+
+    img {
+      box-shadow: 0px -2px 19px 4px rgba(0,0,0,0.29);
+    }
+
+    .product-screen-1 {
+      position: absolute;
+      z-index: 30;
+      left: calc(50% + 54px);
+      bottom: 0;
+      top: 30px;
+    }
+
+    .product-screen-2 {
+      position: absolute;
+      z-index: 20;
+      left: calc(50% - 154px);
+      bottom: 0;
+      top: 90px;
+    }
+
+    .product-screen-3 {
+      position: absolute;
+      z-index: 10;
+      left: calc(50% - 374px);
+      bottom: 0;
+      top: 150px;
+    }
+
+    @media (max-width: 767px) {
+      .product-screen-1 {
+        position: static;
+        padding-top: 30px;
+      }
+
+      .product-screen-2, .product-screen-3 {
+        display: none;
+      }
+    }
+
+  }
+
+}
