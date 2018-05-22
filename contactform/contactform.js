@@ -85,15 +85,16 @@ jQuery(document).ready(function($) {
             }
             break;
         }
-        i.next('.validation').html((ierror ? (i.attr('data-msg') != undefined ? i.attr('data-msg') : 'wrong Input') : '')).show('blind');
+        i.next('.validation').html((ierror ? (i.attr('data-msg') !== undefined ? i.attr('data-msg') : 'wrong Input') : '')).show('blind');
       }
     });
     if (ferror) return false;
     else var str = $(this).serialize();
     $.ajax({
       type: "POST",
-      url: "contactform/contactform.php",
-      data: str,
+      url: "https://formspree.io/hello@lbry.io",
+      data: str.serialize(),
+      dataType: 'json',
       success: function(msg) {
         // alert(msg);
         if (msg == 'OK') {
@@ -105,7 +106,6 @@ jQuery(document).ready(function($) {
           $("#errormessage").addClass("show");
           $('#errormessage').html(msg);
         }
-
       }
     });
     return false;
