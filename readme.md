@@ -1,7 +1,7 @@
 <h1 align="center">lbry.fund</h1>
+
 <div align="center">
-  <strong>The LBRY Community Fund
-Come Build Your Project on the LBRY Protocol</strong>
+  <strong>The LBRY Community Fund Come Build Your Project on the LBRY Protocol</strong>
 </div>
 
 <div align="center">
