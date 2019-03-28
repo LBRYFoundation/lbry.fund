@@ -92,7 +92,7 @@ jQuery(document).ready(function($) {
     else var str = $(this).serialize();
     $.ajax({
       type: "POST",
-      url: "https://formspree.io/hello@lbry.io",
+      url: "https://formspree.io/hello@lbry.com",
       data: str.serialize(),
       dataType: 'json',
       success: function(msg) {
