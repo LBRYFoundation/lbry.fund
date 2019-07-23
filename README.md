@@ -5,7 +5,7 @@
 </div>
 
 <div align="center">
-  <img src="https://spee.ch/7/lbryfund.png" title="Screenshot of lbry.fund"/>
+  <img src="https://spee.ch/2/dotfund-2019-july.png" title="Screenshot of lbry.fund"/>
 </div>
 
 
