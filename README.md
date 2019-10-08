@@ -29,6 +29,8 @@ Visit [LBRY.fund](https://lbry.fund) to see this repo in production.
 ## Contributing
 Contributions to this project are welcome, encouraged, and compensated.
 
+For more details, see [CONTRIBUTING](https://lbry.tech/contribute).
+
 ## License
 This project is MIT licensed. For the full license, see [LICENSE](LICENSE).
 
