@@ -1,4 +1,4 @@
-<h1 align="center">lbry.fund</h1>
+<a href="https://lbry.fund/"><h1 align="center">lbry.fund</h1></a>
 
 <div align="center">
   <strong>Build your project with the LBRY protocol</strong>
