@@ -112,10 +112,31 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-fixed {
-  background: linear-gradient(45deg, #1de099, #1dc8cd);
   padding: 20px 0;
   height: 78px;
   transition: all 0.5s;
+}
+
+#header.header-fixed::before{
+  border-radius: inherit;
+  background-image : linear-gradient(45deg, #1de099, #1dc8cd);
+  content: '';    
+  display: block;
+  height: 100%;
+  position: absolute;
+  top: 0; left: 0;
+  opacity: 1;
+  width: 100%;
+  z-index: -100;
+  animation: fadeBG 0.35s;
+}
+@keyframes fadeBG{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
 }
 
 /*--------------------------------------------------------------
