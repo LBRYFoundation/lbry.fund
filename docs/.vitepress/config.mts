@@ -123,27 +123,31 @@ export default defineConfig({
     nav: [
       {
         text: 'Home',
-        link: '/'
+        link: '/',
       },
       {
         text: 'About',
-        link: '/#about'
+        link: '/#about',
       },
       {
         text: 'Submit Proposal',
-        link: '/#proposal'
+        link: '/proposal/',
       },
       {
         text: 'Meetups',
-        link: '/meetup'
+        link: '/meetup/',
+      },
+      {
+        text: 'Creator',
+        link: '/creator/',
       },
       {
         text: 'FAQ',
-        link: '/#faq'
+        link: '/#faq',
       },
       {
         text: 'Contact',
-        link: '/#contact'
+        link: '/#contact',
       },
     ],
   },

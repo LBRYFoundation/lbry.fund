@@ -15,7 +15,7 @@ features:
   - details: <img alt="Product Screen 3" src="img/product-screen-3.png"/>
 ---
 
-## About Foundation Grants
+## About Foundation Grants {#about}
 
 Do you have an idea of a project you could build using the LBRY protocol, or want to help promote awareness and use of the LBRY protocol and open source tools?
 
@@ -33,7 +33,7 @@ Ways to become involved or find ideas for grant projects:
  - Make a new product that uses or incorporates LBRY open source software
  - Free speech projects
 
-## Create Your Funding Proposal
+## Create Your Funding Proposal {#features}
 
 ![Product Features](/img/product-features.png)
 
@@ -57,7 +57,7 @@ Feel free to [send us an email](mailto:jon@lbry.org) with any additional questio
 
 [Create Funding Proposal](/proposal/)
 
-## Frequently Asked Questions
+## Frequently Asked Questions {#faq}
 
 Answers to your questions about the LBRY Foundation and applying for a grant
 
@@ -89,7 +89,7 @@ We review the submissions on a rolling basis and aim to reply within seven days.
 
 Feel free to send an email to [jon@lbry.org](mailto:jon@lbry.org) and we'll get back to you quickly.
 
-## LBRY Foundation
+## LBRY Foundation {#contact}
 
 Public contributions are crucial for the development and continued success of the LBRY application and network. If you have questions about the LBRY Community Fund or want to ask about a potential project, please send an email to [hello@lbry.com](mailto:hello@lbry.com).
 
