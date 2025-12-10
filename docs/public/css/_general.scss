@@ -1,0 +1,75 @@
+// main: style.scss
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+html,
+body {
+  width: 100%; height: 100%;
+}
+
+body {
+  background-color: white;
+  color: $text-color;
+  font-family: $text-font;
+  overflow-x: hidden;
+}
+
+main,
+.section-bg,
+.embed-responsive {
+  height: 100%;
+}
+
+a {
+  transition: 0.5s;
+
+  &:not(:hover),
+  &:not(:active),
+  &:not(:focus) {
+    color: $accent-color;
+  }
+
+  &:hover,
+  &:active,
+  &:focus {
+    color: lighten($accent-color, 0.2%);
+    outline: none;
+    text-decoration: none;
+  }
+}
+
+p {
+  margin: 0 0 30px 0; padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 20px 0; padding: 0;
+
+  font-family: $heading-font;
+  font-weight: 400;
+}
+
+// Back to top button
+.back-to-top {
+  bottom: 0; right: 15px;
+
+  &:not(:hover) {
+    background-image: linear-gradient(45deg, #1de099, #1dc8cd);
+  }
+
+  border-radius: 4px 4px 0 0;
+  color: white;
+  display: none;
+  font-size: 16px;
+  padding: 2px 20px 8px 20px;
+  position: fixed;
+  transition: none;
+
+  &:focus {
+    outline: none;
+  }
+
+  &:hover {
+    background-color: $accent_color;
+  }
+}

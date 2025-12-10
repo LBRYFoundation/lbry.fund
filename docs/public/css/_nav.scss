@@ -1,0 +1,230 @@
+// main: style.scss
+/*--------------------------------------------------------------
+# Navigation Menu
+--------------------------------------------------------------*/
+
+/* Nav Menu Essentials */
+.nav-menu {
+  & ,* {
+    margin: 0; padding: 0;
+    list-style: none;
+  }
+
+  ul {
+    top: 100%; left: 0;
+
+    display: none;
+    position: absolute;
+    z-index: 99;
+  }
+
+  li {
+    position: relative;
+    white-space: nowrap;
+  }
+
+  & > li {
+    float: left;
+  }
+
+  li:hover > ul,
+  li.sfHover > ul {
+    display: block;
+  }
+
+  ul ul {
+    top: 0; left: 100%;
+  }
+
+  ul li {
+    min-width: 180px;
+  }
+}
+
+// Nav Menu Arrows
+.sf-arrows {
+  .sf-with-ul {
+    padding-right: 30px;
+  }
+
+  .sf-with-ul::after {
+    content: "\f107";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    position: absolute;
+    right: 15px;
+  }
+
+  ul .sf-with-ul::after {
+    content: "\f105";
+  }
+}
+
+// Nav Meu Container
+#nav-menu-container {
+  float: right;
+  margin: 0;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+
+// Nav Meu Styling
+.nav-menu {
+  a {
+    color: white;
+    display: inline-block;
+    font-family: $accent-font;
+    font-size: 14px;
+    font-weight: 400;
+    outline: none;
+    padding: 0 8px 10px 8px;
+    text-decoration: none;
+  }
+
+  >  li {
+    margin-left: 10px;
+  }
+
+  ul {
+    margin: 4px 0 0 0; padding: 10px;
+
+    background-color: white;
+    box-shadow: 0 0 30px rgba(127, 137, 161, 0.25);
+
+    li {
+      transition: 0.3s;
+
+      a {
+        color: #333;
+        display: block;
+        font-size: 13px;
+        padding: 10px;
+        text-transform: none;
+        transition: 0.3s;
+      }
+
+      &:hover {
+        > a {
+          color: $accent-color;
+        }
+      }
+    }
+
+    ul {
+      margin: 0;
+    }
+  }
+}
+
+// Mobile Nav Toggle
+#mobile-nav-toggle {
+  top: 0; right: 0;
+
+  background: none;
+  border: 0;
+  cursor: pointer;
+  font-size: 24px;
+  margin: 20px 20px 0 0;
+  outline: none;
+  position: fixed;
+  transition: all 0.4s;
+  z-index: 999;
+
+  @media (min-width: 769px) {
+    display: none;
+  }
+
+  @media (max-width: 768px) {
+    display: inline;
+  }
+
+  i {
+    color: white;
+  }
+}
+
+// Mobile Nav Styling
+#mobile-nav {
+  top: 0; left: -260px; bottom: 0;
+
+  background-color: rgba(52, 59, 64, 0.9);
+  overflow-y: auto;
+  padding-top: 18px;
+  position: fixed;
+  transition: 0.4s;
+  width: 260px;
+  z-index: 998;
+
+  ul {
+    margin: 0; padding: 0;
+    list-style: none;
+
+    li {
+      position: relative;
+
+      a {
+        color: white;
+        display: block;
+        font-size: 16px;
+        outline: none;
+        overflow: hidden;
+        padding: 10px 22px 10px 15px;
+        position: relative;
+        text-decoration: none;
+        width: 100%;
+      }
+
+      li {
+        padding-left: 30px;
+      }
+    }
+
+    .menu-has-children i {
+      cursor: pointer;
+      padding: 15px;
+      position: absolute;
+      right: 0;
+      z-index: 99;
+
+      &:not(.fa-chevron-up) {
+        color: white;
+      }
+
+      &.fa-chevron-up {
+        color: $accent-color;
+      }
+    }
+
+    .menu-item-active {
+      color: $accent-color;
+    }
+  }
+}
+
+#mobile-body-overly {
+  width: 100%; height: 100%;
+  top: 0; left: 0;
+
+  background-color: rgba(52, 59, 64, 0.9);
+  display: none;
+  position: fixed;
+  z-index: 997;
+}
+
+// Mobile Nav body classes
+body {
+  &.mobile-nav-active {
+    overflow: hidden;
+
+    #mobile-nav {
+      left: 0;
+    }
+
+    #mobile-nav-toggle {
+      color: white;
+    }
+  }
+}
