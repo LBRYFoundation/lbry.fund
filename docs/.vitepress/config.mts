@@ -3,7 +3,7 @@ import path from "path";
 import {defineConfig, SiteConfig, TransformContext} from 'vitepress';
 
 const metaColor = '#27E4EB';
-const metaLogo = '/logo.png';
+const metaLogo = '/img/product-features.png';
 
 /** @type {import('vitepress').DefaultTheme.Config} */
 export default defineConfig({
@@ -16,7 +16,7 @@ export default defineConfig({
   lang: 'en-US',
   title: 'LBRY Fund',
   lastUpdated: true,
-  description: 'The LBRY community invites everyone to join us in building a more free and open way to share content and information online.',
+  description: 'The LBRY Fund aims to promote the adoption and use of the LBRY Protocol, LBRY app, and Spee.ch.',
   transformHtml: (code: string): string => {
     return code.replace( /<head>/,`<head prefix="og: https://ogp.me/ns#">`);
   },
@@ -27,8 +27,16 @@ export default defineConfig({
     ['meta', { name: 'viewport', content: 'initial-scale=1,width=device-width' }],
 
     // Icons
+    ['link', { rel: 'shortcut icon', href: '/favicon.ico' }],
     ['link', { rel: 'mask-icon', href: '/logo/safari-pinned-tab.svg', color: metaColor }],
-    ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/logo/apple-touch-icon.png' }],
+    ['link', { rel: 'apple-touch-icon', href: '/img/apple-touch-icon.png' }],
+    ['link', { rel: 'apple-touch-icon', sizes: '57x57', href: '/img/apple-touch-icon-57x57.png' }],
+    ['link', { rel: 'apple-touch-icon', sizes: '72x72', href: '/img/apple-touch-icon-72x72.png' }],
+    ['link', { rel: 'apple-touch-icon', sizes: '76x76', href: '/img/apple-touch-icon-76x76.png' }],
+    ['link', { rel: 'apple-touch-icon', sizes: '114x114', href: '/img/apple-touch-icon-114x114.png' }],
+    ['link', { rel: 'apple-touch-icon', sizes: '144x144', href: '/img/apple-touch-icon-144x144.png' }],
+    ['link', { rel: 'apple-touch-icon', sizes: '152x152', href: '/img/apple-touch-icon-152x152.png' }],
+    ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/img/apple-touch-icon-180x180.png' }],
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }],
     ['link', { rel: 'icon', sizes: '16x16', href: '/logo/favicon-16x16.png' }],
     ['link', { rel: 'icon', sizes: '32x32', href: '/logo/favicon-32x32.png' }],
@@ -40,7 +48,7 @@ export default defineConfig({
     ['meta', { name: 'msapplication-TileColor', content: metaColor }],
 
     // Twitter Card
-    ['meta', { name: 'twitter:card', content: 'summary' }],
+    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
     ['meta', { name: 'twitter:image', content: metaLogo }],
 
     // OpenGraph
@@ -53,12 +61,38 @@ export default defineConfig({
       .replace(/index\.md$/,'')
       .replace(/\.md$/,'.html');
 
+    context.head.push([
+      'meta',
+      {
+        content: [
+          'lbry, lbc credits, development fund, cryptocurrency fund, cryptocurrency, lbry foundation',
+        ].join(', '),
+        name: 'keywords',
+      },
+    ]);
+
+    // Facebook
+    context.head.push([
+      'meta',
+      {
+        content: '1673146449633983',
+        property: 'fb:app_id',
+      },
+    ]);
+
     // OpenGraph
     context.head.push([
       'meta',
       {
         content: context.description,
         property: 'og:description',
+      },
+    ]);
+    context.head.push([
+      'meta',
+      {
+        content: 'LBRY Fund',
+        property: 'og:site_name',
       },
     ]);
     context.head.push([
@@ -84,6 +118,13 @@ export default defineConfig({
       {
         content: context.description,
         name: 'twitter:description',
+      },
+    ]);
+    context.head.push([
+      'meta',
+      {
+        content: '@lbryio',
+        name: 'twitter:site',
       },
     ]);
     context.head.push([
@@ -116,10 +157,17 @@ export default defineConfig({
     writeFileSync(sitemapFile,readFileSync(sitemapFile).toString().replace('<?xml version="1.0" encoding="UTF-8"?>','<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="sitemap.xsl" type="text/xsl"?>'));
   },
   themeConfig: {
+    editLink: {
+      pattern: (payload: PageData): string => {
+        return `https://github.com/LBRYFoundation/lbry.fund/edit/master/docs/${payload.filePath}`;
+      },
+      text: 'Improve this page on GitHub!',
+    },
     footer: {
       message: 'All Rights Reserved',
       copyright: '© '+(new Date().getFullYear())+' LBRY Foundation',
     },
+    logo: '/foundationlogo1.png',
     nav: [
       {
         text: 'Home',
@@ -148,6 +196,45 @@ export default defineConfig({
       {
         text: 'Contact',
         link: '/#contact',
+      },
+    ],
+    search: {
+      provider: 'local',
+    },
+    outline: false,
+    siteTitle: false,
+    socialLinks: [
+      {
+        icon: 'twitter',
+        link: 'https://twitter.com/lbryio',
+      },
+      {
+        icon: 'facebook',
+        link: 'https://facebook.com/lbryio',
+      },
+      {
+        icon: 'instagram',
+        link: 'https://instagram.com/lbryio',
+      },
+      {
+        icon: 'discord',
+        link: 'https://chat.lbry.com',
+      },
+      {
+        icon: 'reddit',
+        link: 'https://reddit.com/r/lbry',
+      },
+      {
+        icon: 'telegram',
+        link: 'https://t.me/lbryofficial',
+      },
+      {
+        icon: 'discourse',
+        link: 'https://forum.lbry.com',
+      },
+      {
+        icon: 'bitcoin',
+        link: 'https://bitcointalk.org/index.php?topic=5116826.0',
       },
     ],
   },
