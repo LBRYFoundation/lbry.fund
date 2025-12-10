@@ -48,7 +48,7 @@ export default defineConfig({
     ['meta', { name: 'msapplication-TileColor', content: metaColor }],
 
     // Twitter Card
-    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+    ['meta', { name: 'twitter:card', content: 'summary' }],
     ['meta', { name: 'twitter:image', content: metaLogo }],
 
     // OpenGraph
