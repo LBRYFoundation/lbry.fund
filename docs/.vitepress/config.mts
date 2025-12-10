@@ -3,7 +3,7 @@ import path from "path";
 import {defineConfig, SiteConfig, TransformContext} from 'vitepress';
 
 const metaColor = '#27E4EB';
-const metaLogo = '/img/product-features.png';
+const metaLogo = '/logo.png';
 
 /** @type {import('vitepress').DefaultTheme.Config} */
 export default defineConfig({
