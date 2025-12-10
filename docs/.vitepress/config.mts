@@ -167,7 +167,7 @@ export default defineConfig({
       message: 'All Rights Reserved',
       copyright: '© '+(new Date().getFullYear())+' LBRY Foundation',
     },
-    logo: '/foundationlogo1.png',
+    logo: '/img/foundationlogo1.png',
     nav: [
       {
         text: 'Home',
