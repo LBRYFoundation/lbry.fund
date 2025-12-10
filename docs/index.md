@@ -55,7 +55,7 @@ We have a great need to spread awareness about LBRY. Host a meetup and we will g
 
 Feel free to [send us an email](mailto:jon@lbry.org) with any additional questions you have about our grant program.
 
-[Create Funding Proposal](/proposal)
+[Create Funding Proposal](/proposal/)
 
 ## Frequently Asked Questions
 
