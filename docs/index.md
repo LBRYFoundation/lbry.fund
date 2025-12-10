@@ -1,359 +1,96 @@
-<!DOCTYPE html>
-<html lang="en" prefix="og: http://ogp.me/ns#">
-  <head>
-    <meta charset="utf-8"/>
-    <title>LBRY Foundation Inc</title>
+---
+editLink: false
+layout: home
+hero:
+  #name: LBRY Foundation
+  text: The LBRY Community Fund
+  tagLine: Come Build Your Project on the LBRY Protocol
+  actions:
+    - theme: brand
+      text: Tell me more!
+      link: "#about"
+features:
+  - details: <img alt="Product Screen 1" src="img/product-screen-1.png"/>
+  - details: <img alt="Product Screen 2" src="img/product-screen-2.png"/>
+  - details: <img alt="Product Screen 3" src="img/product-screen-3.png"/>
+---
 
-    <meta property="og:title" content="LBRY Foundation Inc"/>
-    <meta property="og:type" content="website"/>
-    <meta property="og:url" content="https://lbry.fund/">
-    <meta property="og:image" content="https://lbry.fund/img/product-features.png"/>
-    <meta property="og:site_name" content="LBRY Foundation Inc"/>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-    <meta name="description" content="TThe LBRY Foundation aims to promote the adoption and use of the LBRY Protocol, LBRY app, and LBRY.TV."/>
-    <meta name="keywords" content="lbry, lbc credits, development fund, cryptocurrency fund, cryptocurrency, lbry foundation"/>
+## About Foundation Grants
 
-    <meta property="fb:app_id" content="1673146449633983" />
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@lbryio">
-    <meta name="twitter:title" content="LBRY Foundation"/>
-    <meta name="twitter:description" content="The LBRY Foundation aims to promote the adoption and use of the LBRY Protocol, LBRY app, and LBRY.TV."/>
-    <meta name="twitter:image" content="https://lbry.fund/img/product-features.png"/>
+Do you have an idea of a project you could build using the LBRY protocol, or want to help promote awareness and use of the LBRY protocol and open source tools?
 
-    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon"/>
-    <link rel="apple-touch-icon" href="/img/apple-touch-icon.png"/>
-    <link rel="apple-touch-icon" sizes="57x57" href="/img/apple-touch-icon-57x57.png"/>
-    <link rel="apple-touch-icon" sizes="72x72" href="/img/apple-touch-icon-72x72.png"/>
-    <link rel="apple-touch-icon" sizes="76x76" href="/img/apple-touch-icon-76x76.png"/>
-    <link rel="apple-touch-icon" sizes="114x114" href="/img/apple-touch-icon-114x114.png"/>
-    <link rel="apple-touch-icon" sizes="120x120" href="/img/apple-touch-icon-120x120.png"/>
-    <link rel="apple-touch-icon" sizes="144x144" href="/img/apple-touch-icon-144x144.png"/>
-    <link rel="apple-touch-icon" sizes="152x152" href="/img/apple-touch-icon-152x152.png"/>
-    <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon-180x180.png"/>
+## Come help build and promote the world's library.
 
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700|Open+Sans:300,300i,400,400i,700,700i" rel="stylesheet"/>
-    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+> The LBRY Foundation receives funding from a portion of the 200 million LBC premined credits reserved for Community to spread the use and adoption of the LBRY protocol. The more people that use and love LBRY, the stronger the LBRY network is.
 
-    <link href="lib/animate/animate.min.css" rel="stylesheet"/>
-    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet"/>
-    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet"/>
-    <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet"/>
-    <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous" rel="stylesheet"/>
+![Build a project on LBRY](/img/about-img.jpg)
 
-    <link href="css/style.css" rel="stylesheet"/>
+Ways to become involved or find ideas for grant projects:
 
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-60403362-7"></script>
+ - Contribute to the development of LBRY's [Open Source Projects](https://lbry.tech/contribute)
+ - Host a LBRY Meetup in your town
+ - Create videos or graphics to promote or explain LBRY
+ - Make a new product that uses or incorporates LBRY open source software
+ - Free speech projects
 
-    <script>
-      window.dataLayer = window.dataLayer || [];
+## Create Your Funding Proposal
 
-      function gtag() {
-        dataLayer.push(arguments);
-      }
+![Product Features](/img/product-features.png)
 
-      gtag("js", new Date());
-      gtag("config", "UA-60403362-7");
-    </script>
-  </head>
+Ready to apply? Here are some tips for success:
 
-  <body>
+### Have a Clear Goal
 
-    <header id="header">
-      <div class="container">
-        <div id="logo" class="pull-left">
-          <a href="#intro" class="scrollto"><img src="img/foundationlogo1.png"></a>
-        </div>
+The best proposals have a simple, clear goal and an expected outcome, with measurable results.
 
-        <nav id="nav-menu-container">
-          <ul class="nav-menu">
-            <li class="menu-active"><a href="#intro">Home</a></li>
-            <li><a href="https://lbry.fund#about">About</a></li>
-            <li><a href="https://lbry.fund#features">Submit Proposal</a></li>
-            <li><a href="https://lbry.fund#faq">FAQs</a></li>
-            <li><a href="https://lbry.org">Foundation</a></li>
-            <li><a href="https://lbry.fund#contact">Contact Us</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
+### Start Small
 
-    <section id="intro">
-      <div class="intro-text">
-        <h2>The LBRY Community Fund</h2>
-        <p>Come Build Your Project on the LBRY Protocol</p>
-        <a href="#about" class="btn-get-started scrollto">Tell me more!</a>
-      </div>
+Grants are awarded on a rolling basis, and you may receive multiple grants. Successful completion of projects helps build your trustworthiness.
 
-      <div class="product-screens">
-        <div class="product-screen-1 wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="0.6s">
-          <img src="img/product-screen-1.png" alt=""/>
-        </div>
+### Host a Meetup
 
-        <div class="product-screen-2 wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="0.6s">
-          <img src="img/product-screen-2.png" alt=""/>
-        </div>
+We have a great need to spread awareness about LBRY. Host a meetup and we will give you swag including LBRY Credits.
 
-        <div class="product-screen-3 wow fadeInUp" data-wow-duration="0.6s">
-          <img src="img/product-screen-3.png" alt=""/>
-        </div>
-      </div>
-    </section>
+### Have Questions?
 
-    <main id="main">
-      <section id="about" class="section-bg">
-        <div class="container-fluid">
-          <div class="section-header">
-            <h3 class="section-title">About Foundation Grants</h3>
-            <span class="section-divider"></span>
+Feel free to [send us an email](mailto:jon@lbry.org) with any additional questions you have about our grant program.
 
-            <p class="section-description">Do you have an idea of a project you could build using the LBRY protocol, or<br>want to help promote awareness and use of the LBRY protocol and open source tools?</p>
-          </div>
+[Create Funding Proposal](/proposal)
 
-          <div class="row">
-            <div class="col-lg-6 about-img wow fadeInLeft">
-              <img src="img/about-img.jpg" alt="Build a project on LBRY"/>
-            </div>
+## Frequently Asked Questions
 
-            <div class="col-lg-6 content wow fadeInRight">
-              <h2>Come help build and promote the world's library.</h2>
-              <h3>The LBRY Foundation receives funding from a portion of the 200 million LBC premined credits reserved for Community to spread the use and adoption of the LBRY protocol. The more people that use and love LBRY, the stronger the LBRY network is.</h3>
+Answers to your questions about the LBRY Foundation and applying for a grant
 
-              <p>Ways to become involved or find ideas for grant projects:</p>
+### Where does the funding for the LBRY Foundation come from?
 
-              <ul>
-                <li>
-                  <i class="ion-android-checkmark-circle"></i>
-                  Contribute to the development of LBRY's <a href="https://lbry.tech/contribute">Open Source Projects</a>
-                </li>
+The LBRY protocol and blockchain were created with the idea that content and information should be created and controlled by the community. Rather than do an Initial Coin Offering &#40;ICO&#41;, LBRY Inc. decided to create a pool of premined coins for community projects and development. The LBRY Foundation was granted 5 million LBC from LBRY Inc.
 
-                <li>
-                  <i class="ion-android-checkmark-circle"></i>
-                  Host a LBRY Meetup in your town
-                </li>
+### What kinds of projects can I submit for grant consideration?
 
-                <li>
-                  <i class="ion-android-checkmark-circle"></i>
-                  Create videos or graphics to promote or explain LBRY
-                </li>
+Applications must make use of the LBRY protocol in some form. Some ideas include building a web project, a classroom project/lesson plan, developing a mobile application, extending the LBRY Apps or services in some way, or your own creative idea using LBRY.
 
-                <li>
-                  <i class="ion-android-checkmark-circle"></i>
-                  Make a new product that uses or incorporates LBRY open source software
-                </li>
+### Do I need to be affiliated with a non-profit organization?
 
-                <li>
-                  <i class="ion-android-checkmark-circle"></i>
-                  Free speech projects
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
+No, we welcome projects from anybody, as long as they utilize and promote the LBRY protocol in some way.
 
-      <section id="features">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 offset-lg-4">
-              <div class="section-header wow fadeIn" data-wow-duration="1s">
-                <h3 class="section-title">Create Your Funding Proposal</h3>
-                <span class="section-divider"></span>
-              </div>
-            </div>
+### How do you decide if a proposal will be funded?
 
-            <div class="col-lg-4 col-md-5 features-img">
-              <img src="img/product-features.png" alt="trees graphic" class="wow fadeInLeft">
-            </div>
+We evaluate each submission on a case by case basis. Our standards for evaluating proposals can be found on our GitHub. &#40;Coming soon&#41;
 
-            <div class="col-lg-8 col-md-7">
-              <div class="row">
-        				<div class="col-lg-12 col-md-12 box wow fadeInRight">
-                  <h3>Ready to apply? Here are some tips for success:</h3>
-                </div>
+### Do you have a maximum funding limit?
 
-                <div class="col-lg-6 col-md-6 box wow fadeInRight">
-                  <div class="icon"><i class="ion-ios-list-outline"></i></div>
-                  <h4 class="title">Have a Clear Goal</h4>
-                  <p class="description">The best proposals have a simple, clear goal and an expected outcome, with measurable results.</p>
-                </div>
+Each project is reviewed on a case-by-case basis and funded based on the merits and need for the project. Reputation and previous experience of the person or team requesting funds helps determine our willingness and extent to fund a project.
 
-                <div class="col-lg-6 col-md-6 box wow fadeInRight" data-wow-delay="0.1s">
-                  <div class="icon"><i class="ion-ios-flask-outline"></i></div>
-                  <h4 class="title">Start Small</h4>
-                  <p class="description">Grants are awarded on a rolling basis, and you may receive multiple grants. Successful completion of projects helps build your trustworthiness.</p>
-                </div>
+### What is the process after I submit my proposal?
 
-                <div class="col-lg-6 col-md-6 box wow fadeInRight" data-wow-delay="0.2s">
-                  <div class="icon"><i class="ion-ios-people-outline"></i></div>
-                  <h4 class="title">Host a Meetup</h4>
-                  <p class="description">We have a great need to spread awareness about LBRY. Host a meetup and we will give you swag including LBRY Credits.</p>
-                </div>
+We review the submissions on a rolling basis and aim to reply within seven days.
 
-                <div class="col-lg-6 col-md-6 box wow fadeInRight" data-wow-delay="0.3s">
-                  <div class="icon"><i class="ion-ios-chatboxes-outline"></i></div>
-                  <h4 class="title">Have Questions?</h4>
-                  <p class="description">Feel free to <a href="mailto:jon@lbry.org">send us an email</a> with any additional questions you have about our grant program.</p>
-                </div>
+### What if I have questions not answered here?
 
-                <div id="pricing" class="col-lg-12 col-md-12 box wow fadeInRight">
-                  <a href="https://lbry.fund/proposal.html" class="featured get-started-btn">Create Funding Proposal</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+Feel free to send an email to [jon@lbry.org](mailto:jon@lbry.org) and we'll get back to you quickly.
 
-      <section id="faq" class="section-bg">
-        <div class="container">
-          <div class="section-header">
-            <h3 class="section-title">Frequently Asked Questions</h3>
-            <span class="section-divider"></span>
-            <p class="section-description">Answers to your questions about the LBRY Foundation and applying for a grant</p>
-          </div>
+## LBRY Foundation
 
-          <ul id="faq-list" class="wow fadeInUp">
-            <li>
-              <a data-toggle="collapse" class="collapsed" href="#faq1">
-                Where does the funding for the LBRY Foundation come from? <i class="ion-android-remove"></i>
-              </a>
+Public contributions are crucial for the development and continued success of the LBRY application and network. If you have questions about the LBRY Community Fund or want to ask about a potential project, please send an email to [hello@lbry.com](mailto:hello@lbry.com).
 
-              <div id="faq1" class="collapse" data-parent="#faq-list">
-                <p>The LBRY protocol and blockchain were created with the idea that content and information should be created and controlled by the community. Rather than do an Initial Coin Offering (ICO), LBRY Inc. decided to create a pool of premined coins for community projects and development. The LBRY Foundation was granted 5 million LBC from LBRY Inc.</p>
-              </div>
-            </li>
-
-            <li>
-              <a data-toggle="collapse" href="#faq2" class="collapsed">
-                What kinds of projects can I submit for grant consideration? <i class="ion-android-remove"></i>
-              </a>
-
-              <div id="faq2" class="collapse" data-parent="#faq-list">
-                <p>Applications must make use of the LBRY protocol in some form. Some ideas include building a web project, a classroom project/lesson plan, developing a mobile application, extending the LBRY Apps or services in some way, or your own creative idea using LBRY.</p>
-              </div>
-            </li>
-
-            <li>
-              <a data-toggle="collapse" href="#faq3" class="collapsed">
-                Do I need to be affiliated with a non-profit organization? <i class="ion-android-remove"></i>
-              </a>
-
-              <div id="faq3" class="collapse" data-parent="#faq-list">
-                <p>No, we welcome projects from anybody, as long as they utilize and promote the LBRY protocol in some way.</p>
-              </div>
-            </li>
-
-            <li>
-              <a data-toggle="collapse" href="#faq4" class="collapsed">
-                How do you decide if a proposal will be funded? <i class="ion-android-remove"></i>
-              </a>
-
-              <div id="faq4" class="collapse" data-parent="#faq-list">
-                <p>We evaluate each submission on a case by case basis. Our standards for evaluating proposals can be found on our GitHub. (Coming soon)</p>
-              </div>
-            </li>
-
-            <li>
-              <a data-toggle="collapse" href="#faq5" class="collapsed">
-                Do you have a maximum funding limit? <i class="ion-android-remove"></i>
-              </a>
-
-              <div id="faq5" class="collapse" data-parent="#faq-list">
-                <p>Each project is reviewed on a case-by-case basis and funded based on the merits and need for the project. Reputation and previous experience of the person or team requesting funds helps determine our willingness and extent to fund a project.</p>
-              </div>
-            </li>
-
-            <li>
-              <a data-toggle="collapse" href="#faq6" class="collapsed">
-                What is the process after I submit my proposal? <i class="ion-android-remove"></i>
-              </a>
-
-              <div id="faq6" class="collapse" data-parent="#faq-list">
-                <p>We review the submissions on a rolling basis and aim to reply within seven days.</p>
-              </div>
-            </li>
-
-        	  <li>
-              <a data-toggle="collapse" href="#faq7" class="collapsed">
-                What if I have questions not answered here?<i class="ion-android-remove"></i>
-              </a>
-
-              <div id="faq7" class="collapse" data-parent="#faq-list">
-                <p>Feel free to send an email to <a href="mailto:jon@lbry.org">jon@lbry.org</a> and we'll get back to you quickly.</p>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <section id="contact">
-        <div class="container">
-          <div class="row wow fadeInUp">
-            <div class="col-lg-8 col-md-8">
-              <div class="contact-about">
-                <h3>LBRY Foundation</h3>
-                <p>Public contributions are crucial for the development and continued success of the LBRY application and network. If you have questions about the LBRY Community Fund or want to ask about a potential project, please send an email to <a href="mailto:hello@lbry.com">hello@lbry.com</a>.</p>
-
-                <div class="social-links">
-                  <a href="https://twitter.com/lbryio" class="twitter"><i class="fab fa-twitter"></i></a>
-                  <a href="https://facebook.com/lbryio" class="facebook"><i class="fab fa-facebook"></i></a>
-                  <a href="https://instagram.com/lbryio" class="instagram"><i class="fab fa-instagram"></i></a>
-                  <a href="https://chat.lbry.com" class="discord"><i class="fab fa-discord"></i></a>
-                  <a href="https://reddit.com/r/lbry" class="reddit"><i class="fab fa-reddit"></i></a>
-                  <a href="https://t.me/lbryofficial" class="telegram"><i class="fab fa-telegram"></i></a>
-                  <a href="https://forum.lbry.com" class="LBRY.Tech Forum"><i class="fas fa-users"></i></i></a>
-                  <a href="https://bitcointalk.org/index.php?topic=5116826.0" class="BitcoinTalk"><i class="fab fa-btc"></i></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-4">
-              <div class="info">
-                <div>
-                  <i class="ion-ios-email-outline"></i>
-                  <p><a href="mailto:jon@lbry.org">jon@lbry.org</a></p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <footer id="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 text-lg-left text-center">
-            <div class="copyright">
-              &copy; Copyright 2020 <strong><a href="https://lbry.org">LBRY Foundation Inc</a></strong>. All Rights Reserved
-            </div>
-          </div>
-
-          <div class="col-lg-6">
-            <nav class="footer-links text-lg-right text-center pt-2 pt-lg-0">
-              <a href="#intro" class="scrollto">Home</a>
-              <a href="#about" class="scrollto">About</a>
-              <a href="https://lbry.com/privacypolicy" target="_blank">Privacy Policy</a>
-            </nav>
-          </div>
-        </div>
-      </div>
-    </footer>
-
-    <a href="#" class="back-to-top">
-      <i class="fa fa-chevron-up"></i>
-    </a>
-
-    <script src="lib/jquery/jquery.min.js"></script>
-    <script src="lib/jquery/jquery-migrate.min.js"></script>
-    <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/superfish/hoverIntent.js"></script>
-    <script src="lib/superfish/superfish.min.js"></script>
-    <script src="lib/magnific-popup/magnific-popup.min.js"></script>
-
-    <script src="js/main.js"></script>
-
-  </body>
-</html>
+[jon@lbry.org](mailto:jon@lbry.org)

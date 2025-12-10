@@ -1,168 +1,27 @@
-<!DOCTYPE html>
-<html lang="en" prefix="og: http://ogp.me/ns#">
-  <head>
-    <meta charset="utf-8"/>
-    <title>LBRY Fund | Grants for Creators</title>
+# Creator
 
-    <meta property="og:title" content="LBRY Community Fund"/>
-    <meta property="og:type" content="website"/>
-    <meta property="og:url" content="https://lbry.fund/">
-    <meta property="og:image" content="https://lbry.fund/img/product-features.png"/>
-    <meta property="og:site_name" content="LBRY Fund"/>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-    <meta name="description" content="The LBRY Fund aims to promote the adoption and use of the LBRY Protocol, LBRY app, and Spee.ch."/>
-    <meta name="keywords" content="lbry, lbc credits, development fund, cryptocurrency fund, cryptocurrency, lbry foundation"/>
+## Do You Love Creating Videos About The Things That Move You?
 
-    <meta property="fb:app_id" content="1673146449633983" />
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@lbryio">
-    <meta name="twitter:title" content="LBRY Community Fund"/>
-    <meta name="twitter:description" content="The LBRY Fund aims to promote the adoption and use of the LBRY Protocol, LBRY app, and Spee.ch."/>
-    <meta name="twitter:image" content="https://lbry.fund/img/product-features.png"/>
+Let us help!
 
-    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon"/>
-    <link rel="apple-touch-icon" href="/img/apple-touch-icon.png"/>
-    <link rel="apple-touch-icon" sizes="57x57" href="/img/apple-touch-icon-57x57.png"/>
-    <link rel="apple-touch-icon" sizes="72x72" href="/img/apple-touch-icon-72x72.png"/>
-    <link rel="apple-touch-icon" sizes="76x76" href="/img/apple-touch-icon-76x76.png"/>
-    <link rel="apple-touch-icon" sizes="114x114" href="/img/apple-touch-icon-114x114.png"/>
-    <link rel="apple-touch-icon" sizes="120x120" href="/img/apple-touch-icon-120x120.png"/>
-    <link rel="apple-touch-icon" sizes="144x144" href="/img/apple-touch-icon-144x144.png"/>
-    <link rel="apple-touch-icon" sizes="152x152" href="/img/apple-touch-icon-152x152.png"/>
-    <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon-180x180.png"/>
+## We’re Making Creators’ Dreams Come True
 
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700|Open+Sans:300,300i,400,400i,700,700i" rel="stylesheet"/>
-    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+LBRY.fund is a resource that helps creators take their ideas from the drawing board to the real world. We’re helping to fund creators who want to make top notch videos about whatever it is that they love. Take a look at some of the recent projects we’ve funded - while these two projects explain and promote LBRY, we're open to hearing pitches for all kinds of content on virtually any subject.
 
-    <link href="lib/animate/animate.min.css" rel="stylesheet"/>
-    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet"/>
-    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet"/>
-    <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet"/>
-    <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous" rel="stylesheet"/>
+<div style="height:150px;">
 
-    <link href="css/style.css" rel="stylesheet"/>
+<iframe src="https://odysee.com/$/embed/@CryptoCandor:9/LBRY" allowfullscreen="true" style="border:0;float:left;"></iframe>
 
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-60403362-7"></script>
+<iframe src="https://odysee.com/$/embed/@FONK:b/FONKnLBRY" allowfullscreen="true" style="border:0;float:right;"></iframe>
 
-    <script>
-      window.dataLayer = window.dataLayer || [];
+</div>
 
-      function gtag() {
-        dataLayer.push(arguments);
-      }
+## Get Started Here
 
-      gtag("js", new Date());
-      gtag("config", "UA-60403362-7");
-    </script>
-  </head>
+Please fill out the form below with your contact information and details of your project, and we'll be in touch!
 
-  <body>
-
-    <header id="header">
-      <div class="container">
-        <div id="logo" class="pull-left">
-          <h1><a href="https://lbry.fund" class="scrollto">LBRY Fund</a></h1>
-        </div>
-
-        <nav id="nav-menu-container">
-          <ul class="nav-menu">
-            <li><a href="https://lbry.fund">Home</a></li>
-            <li><a href="https://lbry.fund#about">About</a></li>
-            <li><a href="https://lbry.fund#proposal">Submit Proposal</a></li>
-            <li class="menu-active"><a href="https://lbry.fund/meetup.html">Meetups</a></li>
-            <li><a href="https://lbry.fund#faq">FAQs</a></li>
-            <li><a href="https://lbry.fund#contact">Contact Us</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-
-    <section id="intro-short" class="section-bg"></section>
-
-    <main id="main">
-      <section id="faq" class="section-bg">
-        <div class="container">
-          <div class="section-header">
-            <h3 class="section-title">Do You Love Creating Videos About The Things That Move You?</h3>
-            <span class="section-divider"></span>
-            <p class="section-description">Let us help!</p>
-          </div>
-        </div>
-      </section>
-      <section id="features" class="section-bg">
-          <div class="container">
-            <div class="section-header">
-            <h3 class="section-title">We’re Making Creators’ Dreams Come True</h3>
-             <span class="section-divider"></span>
-             <p>LBRY.fund is a resource that helps creators take their ideas from the drawing board to the real world. We’re helping to fund creators who want to make top notch videos about whatever it is that they love. Take a look at some of the recent projects we’ve funded - while these two projects explain and promote LBRY, we're open to hearing pitches for all kinds of content on virtually any subject.</p>
-             <div class="row">
-                 <div class="col-lg-6 text-center">
-                      <div><iframe src="https://spee.ch/video-embed/@CryptoCandor:9/LBRY" allowfullscreen="true" style="border:0"></iframe></div>
-                 </div>
-
-                 <div class="col-lg-6 text-center">
-                     <div><iframe src="https://spee.ch/video-embed/@FONK:b/FONKnLBRY"
-                         allowfullscreen="true" style="border:0"></iframe></div>
-                 </div>
-                </div>
-             <div class="row"><p></p></div>
-            </div>
-          </div>
-      </section>
-      <section id="about" class="section-bg">
-           <div classs="container">
-               <div class="section-header text-center">
-               <h3 class="section-title">Get Started Here</h3>
-           <span class="section-divider"></span>
-               <p>Please fill out the form below with your contact information and details of your project, and we'll be in touch!</p>
-        <div class="text-center embed-responsive embed-responsive-16by9" style="height: 2000px;">
-          <iframe
-              src="https://docs.google.com/forms/d/e/1FAIpQLSfV7Qv3hzXow7kTbcWneI1_kltkwED4L4_vvIGhEgCLykNWzg/viewform?embedded=true"
-              width="700"
-              height="2079"
-              frameborder="0"
-              marginheight="0"
-              marginwidth="0">Loading…</iframe>
-        </div></div></div>
-      </section>
-    </main>
-
-    <footer id="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 text-lg-left text-center">
-            <div class="copyright">
-              &copy; Copyright 2020 <strong><a href="https://lbry.com">LBRY Inc</a></strong>. All Rights Reserved
-            </div>
-          </div>
-
-          <div class="col-lg-6">
-            <nav class="footer-links text-lg-right text-center pt-2 pt-lg-0">
-              <a href="https://lbry.fund#intro" class="scrollto">Home</a>
-              <a href="https://lbry.fund#about" class="scrollto">About</a>
-              <a href="#">Privacy Policy</a>
-              <a href="#">Terms of Use</a>
-            </nav>
-          </div>
-        </div>
-      </div>
-    </footer>
-
-    <a href="#" class="back-to-top">
-      <i class="fa fa-chevron-up"></i>
-    </a>
-
-    <script src="lib/jquery/jquery.min.js"></script>
-    <script src="lib/jquery/jquery-migrate.min.js"></script>
-    <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/superfish/hoverIntent.js"></script>
-    <script src="lib/superfish/superfish.min.js"></script>
-    <script src="lib/magnific-popup/magnific-popup.min.js"></script>
-
-    <script src="contactform/contactform.js"></script>
-    <script src="js/main.js"></script>
-
-  </body>
-</html>
+<iframe
+  frameborder="0"
+  height="1000"
+  src="https://docs.google.com/forms/d/e/1FAIpQLSfV7Qv3hzXow7kTbcWneI1_kltkwED4L4_vvIGhEgCLykNWzg/viewform?embedded=true"
+  width="100%">Loading...</iframe>
