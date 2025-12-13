@@ -1,16 +1,15 @@
 <script setup>
-import {useData} from "vitepress";
-import DefaultTheme from 'vitepress/theme';
+import { useData } from "vitepress";
+import DefaultTheme from "vitepress/theme";
 
 const { page } = useData();
 </script>
 
-<style scoped>
-</style>
+<style scoped></style>
 
 <template>
   <div class="error-page" v-if="page.isNotFound">
-<!--    <img alt="Logo" src="/logo-fit.svg">-->
+    <!--    <img alt="Logo" src="/logo-fit.svg">-->
     <div class="content">
       <h1>Oh no!</h1>
       <p class="description">The page you have requested could not be found.</p>
@@ -22,5 +21,5 @@ const { page } = useData();
       </div>
     </div>
   </div>
-  <DefaultTheme.Layout v-else/>
+  <DefaultTheme.Layout v-else />
 </template>

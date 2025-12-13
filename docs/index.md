@@ -27,11 +27,11 @@ Do you have an idea of a project you could build using the LBRY protocol, or wan
 
 Ways to become involved or find ideas for grant projects:
 
- - Contribute to the development of LBRY's [Open Source Projects](https://lbry.tech/contribute)
- - Host a LBRY Meetup in your town
- - Create videos or graphics to promote or explain LBRY
- - Make a new product that uses or incorporates LBRY open source software
- - Free speech projects
+- Contribute to the development of LBRY's [Open Source Projects](https://lbry.tech/contribute)
+- Host a LBRY Meetup in your town
+- Create videos or graphics to promote or explain LBRY
+- Make a new product that uses or incorporates LBRY open source software
+- Free speech projects
 
 ## Create Your Funding Proposal {#features}
 
